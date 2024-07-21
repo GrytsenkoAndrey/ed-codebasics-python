@@ -25,3 +25,7 @@ res = 'Your name is {1}, your age is {0}'.format(age, name)
 print(res)
 formstring = f'Your name is {name}, your age is {age}'
 print(formstring)
+
+# 2 print in one line
+print('Hello, ', end='')
+print('world!')

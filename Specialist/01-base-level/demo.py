@@ -8,3 +8,7 @@ world!'''
 n = 'Hello, \
 world!'
 print(n)
+
+#####
+number = input('Press your number:')
+print('Your number:', number)

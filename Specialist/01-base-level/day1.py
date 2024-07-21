@@ -10,3 +10,5 @@ print(1 + int('2'))
 print('adasd' * 5) # repeat string 5 times
 
 print(len('hello world'))
+
+help(len);help(str.lower)

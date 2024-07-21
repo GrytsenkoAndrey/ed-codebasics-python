@@ -5,3 +5,8 @@ print('hello ' + 'world')
 
 print('hello ' + str(3))
 print(1 + int('2'))
+
+# no error
+print('adasd' * 5) # repeat string 5 times
+
+print(len('hello world'))

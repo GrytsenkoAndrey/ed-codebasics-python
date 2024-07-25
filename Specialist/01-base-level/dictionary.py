@@ -37,3 +37,14 @@ print(l)
 
 # это можно сделать и по-другому
 #l = [i ** 2 for i in [2, 3, 4, 5] if i > 2]
+
+hello = {
+    'ru': 'Привет',
+    'en': 'Hello',
+    'de': 'Hallo',
+    'fr': 'Bonjour',
+    'default': 'Unknown language'
+}
+s = input('Enter language: ')
+greet = hello.get(s, hello['default'])
+print(greet)

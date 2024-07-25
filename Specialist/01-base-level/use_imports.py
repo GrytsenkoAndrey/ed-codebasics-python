@@ -13,6 +13,9 @@
 #
 # print(math.gcd(12, 15))  # 3
 
-from math import cos, sin
-print(cos(1.0))  # 0.5403023058681398
-print(sin(1.0))  # 0.8414709848078965
+# from math import cos, sin
+# print(cos(1.0))  # 0.5403023058681398
+# print(sin(1.0))  # 0.8414709848078965
+
+from math import cos as math_cos
+print(math_cos(1.0))  # 0.5403023058681398

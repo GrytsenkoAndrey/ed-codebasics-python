@@ -8,4 +8,9 @@ def get_employees():
 #print(get_employees())
 
 def print_seconds_per_day():
-    pass
+    h = 24
+    m = h * 60
+    s = m * 60
+    return s
+
+print(print_seconds_per_day())

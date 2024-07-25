@@ -46,3 +46,9 @@ def fn(a, b=2, c=3):
 
 fn(10, 20) # a = 10, b = 20, c = 3
 fn(10, c=30) # a = 10, b = 2, c = 30
+
+# different numbers of arguments
+def fn(*args):
+    return args
+
+print(fn(1, 2, 3, 4, 5))

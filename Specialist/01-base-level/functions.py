@@ -13,4 +13,15 @@ def print_seconds_per_day(days = 1):
     s = m * 60
     return s
 
-print(print_seconds_per_day(3))
+# print(print_seconds_per_day(3))
+
+def area_of_disk(radius):
+    pi = 3.14159265359
+    return pi * radius ** 2
+
+def area_of_ring(outer, inner):
+    return area_of_disk(outer) - area_of_disk(inner)
+
+print(area_of_ring(10, 5))
+
+

@@ -19,3 +19,11 @@
 
 from math import cos as math_cos
 print(math_cos(1.0))  # 0.5403023058681398
+
+#####
+# useful packages
+
+# 0 - jupiter
+# 1 - numpy
+# 2 - pandas
+# 4 - math

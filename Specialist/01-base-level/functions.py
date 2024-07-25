@@ -24,4 +24,13 @@ def area_of_ring(outer, inner):
 
 print(area_of_ring(10, 5))
 
+#####
+x = 10 # глобальная переменная
+def fn(x):
+    print(x) # локальная переменная
+    x = 20
+    print(x)
 
+print(x)
+fn(0)
+print(x)

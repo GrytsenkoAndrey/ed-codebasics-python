@@ -51,9 +51,17 @@ fn(10, c=30) # a = 10, b = 2, c = 30
 def fn(*args):
     return args
 
-print(fn(1, 2, 3, 4, 5)) # tuple
+# print(fn(1, 2, 3, 4, 5)) # tuple
 
-def fn(**kwargs):
+def fun(**kwargs):
     return kwargs
 
-print(fn(a=1, b=2, c=3)) # dictinary
+# print(fun(a=1, b=2, c=3)) # dictinary
+
+####
+# help text for a function
+def myf():
+    '''This is a function that does nothing'''
+    pass
+
+help(myf)

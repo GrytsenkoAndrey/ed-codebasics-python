@@ -1,3 +1,13 @@
+try:
+    long = 20
+    short = 2
+    total = long * 3 + shoort * 2
+    print(total)
+except:
+    print('Oops, something went wrong')
+
+print('The program is end')
+
 # print(1)
 # input('...'
 

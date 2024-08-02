@@ -12,3 +12,7 @@
 
 #foo()
 # NameError: name 'foo' is not defined
+
+#abc = 10
+#print(аbс)
+# NameError: name 'аbс' is not defined - кириллица

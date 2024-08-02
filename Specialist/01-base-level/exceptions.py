@@ -16,3 +16,9 @@
 #abc = 10
 #print(аbс)
 # NameError: name 'аbс' is not defined - кириллица
+
+
+#==================================================================================================
+
+# 10 / 0
+# ZeroDivisionError: division by zero

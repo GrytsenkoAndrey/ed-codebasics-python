@@ -38,3 +38,9 @@
 #
 #     Аргумент — информация, которую функция получает при вызове. Например, foo(42) — передача аргумента 42 функции foo()
 
+company1 = 'Apple'
+company2 = 'Samsung'
+
+# BEGIN (write your solution here)
+print(len(company1) + len(company2))
+# END
